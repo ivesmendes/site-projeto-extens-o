@@ -5,8 +5,8 @@ import Footer from "../components/Footer"
 
 import Home from '../pages/Home'
 import Authors from '../pages/Authors'
-import AuthorPosts from '../pages/AuthorPost'
-import CategoryPosts from '../pages/CategoryPost'
+import AuthorPosts from '../pages/AuthorPosts'
+import CategoryPosts from '../pages/CategoryPosts'
 import CreatePosts from '../pages/CreatePosts'
 import Dashboard from '../pages/Dasboard'
 import DeletePost from '../pages/DeletePost'

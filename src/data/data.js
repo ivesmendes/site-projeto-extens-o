@@ -1,4 +1,16 @@
 import blogImage1 from '../../src/assets/1.jpg'
+export const HeadPost = [
+    {
+        id: 1,
+        Image: blogImage1,
+        category: 'Education',
+        authorId: 2,
+        title: 'título da imagem 1',
+        des: 'descrição imagem 1'
+    },
+]
+
+import blogImage1 from '../../src/assets/1.jpg'
 import blogImage2 from '../../src/assets/2.jpg'
 import blogImage3 from '../../src/assets/3.jpg'
 import blogImage4 from '../../src/assets/4.jpg'
