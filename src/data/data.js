@@ -1,4 +1,4 @@
-import blogImage1 from '../../src/assets/1.jpg'
+
 export const HeadPost = [
     {
         id: 1,
@@ -67,4 +67,37 @@ export const DummyPosts =[
         des: 'descrição imagem 1'
     },
     
+];
+
+import AuthorImage1 from '../assets/a1.jpg'
+import AuthorImage2 from '../assets/a2.jpg'
+import AuthorImage3 from '../assets/a3.jpg'
+import AuthorImage4 from '../assets/a4.jpg'
+
+
+export const DummyAuthor =[
+    {
+        id: 1,
+        Image: AuthorImage1,
+        category: 'Beg Joker',
+        posts: 2,
+    },
+    {
+        id: 2,
+        Image: AuthorImage2,
+        category: 'Evarhim Alli',
+        posts: 1,
+    },
+    {
+        id: 3,
+        Image: AuthorImage3,
+        category: 'Alyexa Nuva',
+        posts: 6,
+    },
+    {
+        id: 4,
+        Image: AuthorImage4,
+        category: 'Imran Hasmi',
+        posts: 4,
+    },
 ]
