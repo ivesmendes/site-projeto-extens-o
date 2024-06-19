@@ -17,11 +17,10 @@ export default function CreatePosts() {
   return (
     <section className='createPosts'>
       <div className="container form-container createPosts-container">
-      <h2>Create Posts</h2>
+      <h2>Criação de Posts</h2>
         <form action="" className='form createPosts-form'>
-          <p className="form-message">This is the invalid message</p>
 
-          <input type="text" placeholder='Title' name='title' value={title} onChange={e => setTitle(e.target.value)} autoFocus />
+          <input type="text" placeholder='Título' name='title' value={title} onChange={e => setTitle(e.target.value)} autoFocus />
 
           <select name="category" value={category} onChange={e => setCategory(e.target.value)}>
             {

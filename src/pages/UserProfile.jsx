@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import PfofileImage from '../assets/a8.jpg'
+import PfofileImage from '../assets/icev.jpg'
 import { FaEdit } from "react-icons/fa";
 import { useState } from "react";
 import { FaCheckCircle } from "react-icons/fa";
@@ -39,17 +39,10 @@ export default function UserProfile() {
 
           <h2>Alunos ICEV</h2>
 
+          <p>Nós somos um grupo de alunos da faculdade ICEV-Instituto de Ensino Superior, esse é o parte do nosso projeto de extensão, o qual visa a prática de suporte psicológico para famílias de pessoas com autismo, fornecendo as informações necessárias para o público alvo.</p>
 
-          <form action="" className='form profile-data-form'>
 
-          <input type="text" placeholder='Nome' name='name' value={name} onChange={e => setName(e.target.value)}/>
-          <input type="email" placeholder='Email' name='email' value={email} onChange={e => setEmail(e.target.value)}/>
-          <input type="password" placeholder='Senha atual' name='currentPassword' value={currentPassword} onChange={e => setCurrentPassword(e.target.value)}/>
-          <input type="password" placeholder='Nova senha' name='newPassword' value={newPassword} onChange={e => setNewPassword(e.target.value)}/>
-          <input type="password" placeholder='Confirmar senha' name='confirmPassword' value={confirmNewPassword} onChange={e => setConfirmNewPassword(e.target.value)}/>
-
-          <button type="submit" className="btn btn-primary">Atualizar Perfil</button>
-        </form>
+         
 
         </div>
       </div>
