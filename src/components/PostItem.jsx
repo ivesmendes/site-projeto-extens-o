@@ -12,7 +12,7 @@ export default function PostItem({Image, authorId, category, title, des, postId}
             <img src={Image} alt="" />
         </div>
         <div className="post-content">
-            <Link to={`posts/${postId}`}>
+            <Link to={`/posts/${postId}`}>
                 <h3>{shortTitle}</h3>
             </Link>
             <p>{shortDes}</p>
