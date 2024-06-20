@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
     font-size: 2.2rem;
+    margin-bottom: 1rem;
 }
 
 h2{
@@ -211,7 +212,7 @@ nav{
 }
 
 .head-post-container .post-image{
-    height: 700px;
+    height: 525px;
 }
 
 .head-post-container h1{
@@ -224,9 +225,13 @@ nav{
 .head-post-container p {
     font-size: 17px;
     line-height: 1.5;
+    font-size: 22px;
 }
 
 .post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: var(--color-white);
     padding: 1rem;
     border-radius: var(--border-radius-4);
@@ -247,10 +252,8 @@ nav{
 .post-image img{
     height: 100%;
 }
-.post-content{
-    margin-top: 1.5rem;
-}
 .post-content h3{
+    margin-top: 15px;
     margin-right: 1rem 0 0.6rem;
 }
 .post-footer{
@@ -258,6 +261,9 @@ nav{
     align-items: flex-end;
     margin-top: 2rem;
     justify-content: space-between;
+}
+.post-author-info h5{
+    font-size: 15px;
 }
 .post-author{
     display: flex;
@@ -304,6 +310,8 @@ nav{
 }
 .postdtail-para p{
     margin-bottom: .7rem;
+    margin-top: 2rem;
+    font-size: 23px;
 }
 
 

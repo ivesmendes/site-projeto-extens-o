@@ -8,19 +8,23 @@ export default function PostItem({Image, authorId, category, title, des, postId}
 
   return (
     <article className="post">
-        <div className="post-image">
-            <img src={Image} alt="" />
-        </div>
+        
         <div className="post-content">
+            <div className="post-image">
+                <img src={Image} alt="" />
+            </div>
             <Link to={`/posts/${postId}`}>
                 <h3>{shortTitle}</h3>
             </Link>
             <p>{shortDes}</p>
-            <div className="post-footer">
-                <PostAuthor />
-                <Link to={`/posts/categories/${category}`} className="btn btn-category">{category}</Link>
-            </div>
+           
         </div>
+        <div className="post-footer">
+            <PostAuthor />
+            <Link to={`/posts/categories/${category}`} className="btn btn-category">{category}</Link>
+        </div>
+
+        
     </article>
   )
 }

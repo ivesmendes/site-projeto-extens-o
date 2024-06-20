@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import PfofileImage from '../assets/icev.jpg'
-import { FaEdit } from "react-icons/fa";
 import { useState } from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -9,17 +8,11 @@ export default function UserProfile() {
 
   const [profileImage, setProfileImage] = useState('');
 
-  const [name, setName] = useState()
-  const [email, setEmail] = useState()
-  const [currentPassword, setCurrentPassword] = useState()
-  const [newPassword, setNewPassword] = useState()
-  const [confirmNewPassword, setConfirmNewPassword] = useState()
-
   
   return (
     <section className='profile'>
       <div className="container profile-container">
-        <Link to={'/myposts/id'}> Meus Posts </Link>
+        <Link to={'/myposts/id'}>Posts</Link>
 
 
 

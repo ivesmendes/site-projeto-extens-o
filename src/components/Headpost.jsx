@@ -6,16 +6,16 @@ export default function Headpost() {
   return (
     <article className="head-post">
             {
-                HeadPost.map(({id, Image, authorId, title, des}, index)=>{
+                HeadPost.map(({idUrl, Image, authorId, title, des}, index)=>{
                     return(
                         <div key={index} className="container head-post-container">
                             <div className="post-content">
-                                <Link to={`posts/${authorId}`}>
+                                <Link to={`posts/${idUrl}`}>
                                     <h1>{title}</h1>
                                  </Link>
                                 <p>{des}</p>
                             </div>
-                            <div className="post-image">
+                            <div>
                                 <img src={Image} alt=""/>
                             </div>
                         </div>
