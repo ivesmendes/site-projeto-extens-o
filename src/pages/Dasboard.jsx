@@ -18,8 +18,6 @@ export default function Dasboard() {
                 </div>
                 <div className="deashboard-posts-action">
                   <Link to={`/posts/${authorId}`} className="btn-V btn btn-sm">Visualizar</Link>
-                  <Link to={`/posts/${authorId}/edit`} className="btn btn-sm btn-primary">Editar</Link>
-                  <Link to={`/posts/${authorId}/delete`} className="btn btn-sm btn-danger">Excluir</Link>
                 </div>
               </article>
             })

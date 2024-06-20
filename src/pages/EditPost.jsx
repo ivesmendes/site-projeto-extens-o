@@ -8,16 +8,16 @@ export default function EditPost() {
   const [thumbImage, setthumbImage] = useState('')
 
 
-  const postCategories = ['Education','Discovery','Agreculture','Entertaiment','Music','Investment','Fashion','Sports','Sciente','Weather'];
+  const postCategories = ['Educação'];
 
 
 
   return (
     <section className='editPost'>
       <div className="container form-container editPost-container">
-        <h2>Edit Posts</h2>
+        <h2>Edição de Posts</h2>
         <form action="" className='form editPost-form'>
-          <p className="form-message">This is the invalid message</p>
+          <p className="form-message">Mensagem inválida</p>
 
           <input type="text" placeholder='Title' name='title' value={title} onChange={e => setTitle(e.target.value)} autoFocus />
 
@@ -29,7 +29,7 @@ export default function EditPost() {
 
           <input type="file" value={thumbImage} onChange={e => setthumbImage(e.target.value)} accept="png, jgp, jpeg" />
 
-          <button type="submit" className="btn btn-primary">Update</button>
+          <button type="submit" className="btn btn-primary">Postar</button>
         </form>
       </div>
     </section>

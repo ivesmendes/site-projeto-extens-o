@@ -12,7 +12,7 @@ export default function CreatePosts() {
   const [thumbImage, setthumbImage] = useState('')
 
 
-  const postCategories = ['Education','Discovery','Agreculture','Entertaiment','Music','Investment','Fashion','Sports','Sciente','Weather'];
+  const postCategories = ['Educação'];
 
   const modules ={
     toolbar:[

@@ -11,14 +11,6 @@ export default function PostDtail() {
           <div className="container PostDtail-container">
             <div className="postdtail-top">
               <PostAuthor />
-                <div className="postdtail-buttons">
-                  <Link to={'/posts/werwer/edit'} className='btn btn-sm btn-primary'>
-                    Edit
-                  </Link>
-                  <Link to={'/posts/werwer/delete'} className='btn btn-sm btn-danger'>
-                    Delete
-                  </Link>
-              </div>
             </div>
             {
                 PostContent.map(({idUrl, image, authorId, title, content}, index)=>{
