@@ -16,7 +16,7 @@ export default function Headpost() {
                                 <p>{des}</p>
                             </div>
                             <div className="post-image">
-                                <img src={Image} alt="" />
+                                <img src={Image} alt=""/>
                             </div>
                         </div>
                     )

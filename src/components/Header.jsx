@@ -9,7 +9,7 @@ export default function Header() {
       <div className="container nav-contianer">
         <Link className="nav-logo" to={'/'}>
             <img src="src\assets\autismo-177.png" alt="" />
-            <h3>Laços De <span>Compreensão</span></h3>
+            <h3>Laços De Compreensão</h3>
         </Link>
 
         <ul className="nav-menu">

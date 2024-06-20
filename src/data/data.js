@@ -5,13 +5,13 @@ export const HeadPost = [
         Image: blogImage1,
         category: 'Education',
         authorId: 2,
-        title: 'título da imagem 1',
-        des: 'descrição imagem 1'
+        title: 'Entendendo o Autismo e suas Características.',
+        des: 'Muitas pessoas ainda têm pouco conhecimento sobre o autismo, o que pode gerar mal-entendidos e preconceitos. O autismo é um espectro com uma ampla variedade de sintomas e habilidades. Convidamos você a aprender mais sobre o autismo para ajudar a construir uma sociedade mais compreensiva e inclusiva.'
     },
 ]
 
-import blogImage1 from '../../src/assets/1.jpg'
-import blogImage2 from '../../src/assets/2.jpg'
+import blogImage1 from '../../src/assets/AT.jpeg'
+import blogImage2 from '../../src/assets/desafios.jpeg'
 import blogImage3 from '../../src/assets/3.jpg'
 import blogImage4 from '../../src/assets/4.jpg'
 import blogImage5 from '../../src/assets/5.jpg'
@@ -23,8 +23,8 @@ export const DummyPosts =[
         Image: blogImage1,
         category: 'Education',
         authorId: 2,
-        title: 'título da imagem 1',
-        des: 'descrição imagem 1'
+        title: 'Entendendo o Autismo e suas Características.',
+        des: 'O desconhecimento sobre o autismo gera mal-entendidos e preconceitos.Clique para aprender mais e ajudar a construir uma sociedade inclusiva!'
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ export const DummyPosts =[
         category: 'Education',
         authorId: 3,
         title: 'título da imagem 1',
-        des: 'descrição imagem 1'
+        des: 'Conviver com o autismo é desafiador. Comunicação difícil, impacto emocional e isolamento são obstáculos. Clique para saber mais!'
     },
     {
         id: 3,
@@ -69,10 +69,7 @@ export const DummyPosts =[
     
 ];
 
-import AuthorImage1 from '../assets/a1.jpg'
-import AuthorImage2 from '../assets/a2.jpg'
-import AuthorImage3 from '../assets/a3.jpg'
-import AuthorImage4 from '../assets/a4.jpg'
+import AuthorImage1 from '../assets/icev.jpg'
 
 
 export const DummyAuthor =[
@@ -80,24 +77,6 @@ export const DummyAuthor =[
         id: 1,
         Image: AuthorImage1,
         category: 'Beg Joker',
-        posts: 2,
-    },
-    {
-        id: 2,
-        Image: AuthorImage2,
-        category: 'Evarhim Alli',
-        posts: 1,
-    },
-    {
-        id: 3,
-        Image: AuthorImage3,
-        category: 'Alyexa Nuva',
         posts: 6,
-    },
-    {
-        id: 4,
-        Image: AuthorImage4,
-        category: 'Imran Hasmi',
-        posts: 4,
     },
 ]

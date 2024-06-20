@@ -39,7 +39,8 @@ export default function UserProfile() {
 
           <h2>Alunos ICEV</h2>
 
-          <p>Nós somos um grupo de alunos da faculdade ICEV-Instituto de Ensino Superior, esse é o parte do nosso projeto de extensão, o qual visa a prática de suporte psicológico para famílias de pessoas com autismo, fornecendo as informações necessárias para o público alvo.</p>
+          
+          <p className="btn btn-sm btn-primary">Nós somos um grupo de alunos da faculdade ICEV-Instituto de Ensino Superior, esse site é parte do nosso projeto de extensão, o qual visa a prática de suporte psicológico para famílias de pessoas com autismo, fornecendo as informações necessárias para o público alvo.</p>
 
 
          

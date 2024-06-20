@@ -1,5 +1,7 @@
 import { useState } from "react"
 
+import ReactQuill from "react-quill"
+import 'react-quill/dist/quill.snow.css'
 
 export default function CreatePosts() {
 
@@ -12,7 +14,21 @@ export default function CreatePosts() {
 
   const postCategories = ['Education','Discovery','Agreculture','Entertaiment','Music','Investment','Fashion','Sports','Sciente','Weather'];
 
-  
+  const modules ={
+    toolbar:[
+      [{'header' : [1, 2, 3 ,4 ,5, 6, false]}],
+      ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+      [{'list' : 'ordered'}, {'list': 'bullet'}, {'indent': '+1'},{'indent': '-1'}],
+      ['clean']
+    ]
+  }
+
+  const formats =[
+    'header',
+    'bold', 'italic', 'underline', 'strike', 'blockquote',
+    'list', 'bullet', 'indent',
+    'link', 'image'
+  ]
 
   return (
     <section className='createPosts'>
@@ -28,9 +44,11 @@ export default function CreatePosts() {
             }
           </select>
 
+            <ReactQuill modules={modules} formats={formats} value={description} onChange={e => setDescription(e.target.value)}/>
+
           <input type="file" value={thumbImage} onChange={e => setthumbImage(e.target.value)} accept="png, jgp, jpeg" />
 
-          <button type="submit" className="btn btn-primary">Create</button>
+          <button type="submit" className="btn btn-primary">Criar</button>
         </form>
       </div>
     </section>

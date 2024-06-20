@@ -17,14 +17,14 @@ export default function Dasboard() {
                   <h5>{title}</h5>
                 </div>
                 <div className="deashboard-posts-action">
-                  <Link to={`/posts/${authorId}`} className="btn-V btn btn-sm">View</Link>
-                  <Link to={`/posts/${authorId}/edit`} className="btn btn-sm btn-primary">Edit</Link>
-                  <Link to={`/posts/${authorId}/delete`} className="btn btn-sm btn-danger">Delete</Link>
+                  <Link to={`/posts/${authorId}`} className="btn-V btn btn-sm">Visualizar</Link>
+                  <Link to={`/posts/${authorId}/edit`} className="btn btn-sm btn-primary">Editar</Link>
+                  <Link to={`/posts/${authorId}/delete`} className="btn btn-sm btn-danger">Excluir</Link>
                 </div>
               </article>
             })
             }   
-        </div> : <h2 className="error-center">You have not any posts.</h2>
+        </div> : <h2 className="error-center">Não há nenhum post.</h2>
         }
     </section>
   )

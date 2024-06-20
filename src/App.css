@@ -127,7 +127,7 @@ section{
 
 /*Nav Bar */
 nav{
-    background-color: rgb(99, 40, 99);
+    background-color: rgb(67, 35, 110);
     height: 5rem;
     display: grid;
     place-items: center;
@@ -211,7 +211,7 @@ nav{
 }
 
 .head-post-container .post-image{
-    height: fit-content;
+    height: 700px;
 }
 
 .head-post-container h1{
@@ -508,6 +508,12 @@ input, select, textarea{
 
 /*Star Error Page */
 
+/*Quill Css */
+.ql-editor{
+    overflow: scroll;
+    background: var(--color-white);
+    height: 10rem !important;
+}
 
 /*Start Footer */
 

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-import AuthorImage from '../assets/a1.jpg'
+import AuthorImage from '../assets/icev.jpg'
 
 export default function PostAuthor() {
   return (
@@ -9,8 +9,8 @@ export default function PostAuthor() {
             <img src={AuthorImage} alt="" />
         </div>
         <div className="post-author-info">
-            <h5>Lana White</h5>
-            <small>Just Now</small>
+            <h5>Alunos ICEV</h5>
+            <small>Projeto de Extensão</small>
         </div>
     </Link>
   )
