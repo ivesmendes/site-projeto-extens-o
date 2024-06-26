@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laços De Compreensão</title>
   </head>
+  <script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "3f5bcf76-5ef6-4a11-8a27-ea59d864f3b4", // The ID of this integration.
+        region: "us-south", // The region your integration is hosted in.
+        serviceInstanceID: "d1674c13-0b5c-4049-9bd8-439978c41ced", // The ID of your service instance.
+        onLoad: function (instance) {
+            instance.render();
+        }
+    };
+    setTimeout(function () {
+        const t = document.createElement('script');
+        t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+    });
+</script>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
