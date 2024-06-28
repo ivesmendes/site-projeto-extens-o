@@ -57,8 +57,8 @@ export const PostContent = [
 ]
 
 import blogImage1 from '../../src/assets/AT.jpeg'
-import blogImage2 from '../../src/assets/desafios.jpeg'
-import blogImage3 from '../../src/assets/triste.jpg'
+import blogImage2 from '../../src/assets/desafios-menina.jpg'
+import blogImage3 from '../../src/assets/triste-menina.jpg'
 import blogImage4 from '../../src/assets/suporte.jpg'
 import blogImage5 from '../../src/assets/5.jpg'
 import blogImage6 from '../../src/assets/6.jpg'
