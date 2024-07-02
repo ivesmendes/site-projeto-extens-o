@@ -43,15 +43,15 @@ export const PostContent = [
     {
         idUrl: 5,
         image: blogImage5,
-        title: "TITULO DA MINHA NOTICIA 2",
-        content: "Muitas pessoas ainda têm pouco conhecimento sobre o autismo, o que pode gerar mal-entendidos e preconceitos. O autismo é um espectro com uma ampla variedade de sintomas e habilidades. Convidamos você a aprender mais sobre o autismo para ajudar a construir uma sociedade mais compreensiva e inclusiva.Muitas pessoas ainda têm pouco conhecimento sobre o autismo, o que pode gerar mal-entendidos e preconceitos. O autismo é um espectro com uma ampla variedade de sintomas e habilidades. Convidamos você a aprender mais sobre o autismo para ajudar a construir uma sociedade mais compreensiva e inclusiva.Muitas pessoas ainda têm pouco conhecimento sobre o autismo, o que pode gerar mal-entendidos e preconceitos. O autismo é um espectro com uma ampla variedade de sintomas e habilidades. Convidamos você a aprender mais sobre o autismo para ajudar a construir uma sociedade mais compreensiva e inclusiva.",
+        title: "Dicas para o Cotidiano.",
+        content: "Estabelecer uma rotina diária para indivíduos com autismo pode reduzir a ansiedade e o estresse. Crie horários consistentes para refeições, brincadeiras, estudos e hora de dormir, usando quadros visuais para ajudar na compreensão e seguindo as atividades previstas. Ensine também a lidar com mudanças inesperadas de forma gradual. A comunicação é essencial. Utilize métodos de Comunicação Alternativa e Aumentativa (CAA) como sistemas de imagens, tablets com aplicativos ou linguagem de sinais para melhorar a comunicação. Reforce positivamente comportamentos desejados elogiando e recompensando, e promova interações sociais com brincadeiras estruturadas e atividades em grupo. Para lidar com comportamentos desafiadores, identifique os fatores desencadeantes como mudanças na rotina ou sobrecarga sensorial e minimize-os. Ensine técnicas de descompressão como respiração profunda, uso de objetos de conforto ou momentos de calma. Seja proativo ao perceber sinais de estresse, ajudando a criança a se regular antes que o comportamento se torne problemático.",
         authorId: 4
     },
     {
         idUrl: 6,
         image: blogImage6,
-        title: "TITULO DA MINHA NOTICIA 2",
-        content: "Muitas pessoas ainda têm pouco conhecimento sobre o autismo, o que pode gerar mal-entendidos e preconceitos. O autismo é um espectro com uma ampla variedade de sintomas e habilidades. Convidamos você a aprender mais sobre o autismo para ajudar a construir uma sociedade mais compreensiva e inclusiva.Muitas pessoas ainda têm pouco conhecimento sobre o autismo, o que pode gerar mal-entendidos e preconceitos. O autismo é um espectro com uma ampla variedade de sintomas e habilidades. Convidamos você a aprender mais sobre o autismo para ajudar a construir uma sociedade mais compreensiva e inclusiva.Muitas pessoas ainda têm pouco conhecimento sobre o autismo, o que pode gerar mal-entendidos e preconceitos. O autismo é um espectro com uma ampla variedade de sintomas e habilidades. Convidamos você a aprender mais sobre o autismo para ajudar a construir uma sociedade mais compreensiva e inclusiva.",
+        title: "Planejamentos para o Futuro.",
+        content: "Ensinar habilidades essenciais para a vida independente é crucial para indivíduos com autismo. Isso inclui atividades como cozinhar, limpar, gerenciar dinheiro e cuidados pessoais. Planeje a transição da escola para o ambiente de trabalho, incluindo estágios, programas de treinamento vocacional e oportunidades de voluntariado. Compreender as questões legais e financeiras é fundamental para o planejamento futuro. É importante entender as diferenças entre curatela e tutela e planejar quem será o responsável legal pelo indivíduo autista quando ele atingir a maioridade. Considere a criação de fundos para garantir a segurança financeira futura do indivíduo. Informe-se sobre os benefícios governamentais disponíveis, como assistência social, programas de saúde e apoio ao emprego. Pesquisar programas que oferecem treinamento vocacional específico para pessoas com autismo é essencial para a inclusão no mercado de trabalho. Considere as adaptações necessárias no ambiente de trabalho para acomodar as necessidades sensoriais e comunicativas. Garanta que haja suporte contínuo no local de trabalho, como mentores ou colegas treinados para ajudar na integração e manutenção do emprego.",
         authorId: 4
     }
 ]
@@ -60,8 +60,8 @@ import blogImage1 from '../../src/assets/AT-menina.jpg'
 import blogImage2 from '../../src/assets/desafios-menina.jpg'
 import blogImage3 from '../../src/assets/triste-menina.jpg'
 import blogImage4 from '../../src/assets/suporte.jpg'
-import blogImage5 from '../../src/assets/5.jpg'
-import blogImage6 from '../../src/assets/6.jpg'
+import blogImage5 from '../../src/assets/cotidiano.jpg'
+import blogImage6 from '../../src/assets/futuro.jpg'
 
 export const DummyPosts =[
     {
@@ -101,16 +101,16 @@ export const DummyPosts =[
         Image: blogImage5,
         category: 'Educação',
         authorId: 5,
-        title: 'título da imagem 1',
-        des: 'descrição imagem 1'
+        title: 'Dicas para o Cotidiano.',
+        des: 'Aprenda a facilitar o cotidiano de indivíduos com autismo com dicas de rotina, comunicação e manejo de comportamentos. Clique aqui para saber mais!'
     },
     {
         id: 6,
         Image: blogImage6,
         category: 'Educação',
         authorId: 3,
-        title: 'título da imagem 1',
-        des: 'descrição imagem 1'
+        title: 'Planejamentos para o Futuro.',
+        des: 'Descubra como ensinar habilidades essenciais, planejar a transição para o trabalho e entender questões legais para autistas. Clique aqui para saber mais!'
     },
     
 ];
@@ -122,7 +122,7 @@ export const DummyAuthor =[
     {
         id: 1,
         Image: AuthorImage1,
-        category: 'Beg Joker',
+        category: 'Educação',
         posts: 6,
     },
 ]
